@@ -1,3 +1,8 @@
 python-dotenv
 hume[stream]
+hume[microphone]
 opencv-python
+
+# For some reason if there is an ffmpeg error (windows), include:
+# pip install ffmpeg
+# refer to https://github.com/jiaaro/pydub/issues/348
